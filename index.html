@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>김재윤 Jaeyun Kim - JavaScript 프론트엔드 개발자 Front-End Developer</title>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=Edge"/> -->
+    <meta name="viewport"
+        content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.6, minimum-scale=1.0" />
+
+    <meta name="Subject" content="project0 portfolio">
+    <meta name="Title" content="김재윤 Jaeyun Kim - JavaScript 프론트엔드 개발자 Front-End Developer">
+    <meta name="Keywords"
+        content="JavaScript, AJAX, html, css, front-end, developer, 웹개발자, 퍼블리셔, 코딩, 프로그래밍, 소프트웨어, 개발자포트폴리오, 프로그래머, 웹개발자포트폴리오">
+    <meta name="Description"
+        content="김재윤 Jaeyun Kim - JavaScript를 사랑하는 프론트엔드 웹 개발자의 포토폴리오 사이트 입니다. 현재 개발중인 프로젝트와 개발 중인 프로젝트를 보실 수 있습니다.">
+    <meta name="Author" content="김재윤 Jaeyun Kim">
+    <meta name="Publisher" content="김재윤 Jaeyun Kim">
+    <meta name="Location" content="osanCity">
+    <meta name="Author-Date" content="20200618">
+    <meta name="Copyright"
+        content="모든 작업물은 상업적 용도가 아닌 개인 포트폴리오 목적으로 제작되었습니다. All works were created for personal portfolio purposes, not for commercial use.">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="icon/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="icon/favicon.ico">
+
+    <!-- css -->
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    <link href="css/style.css?ver=20200701" rel="stylesheet">
+
+    <!-- libScript -->
+    <script src="js/lib/jquery-3.5.0.min.js"></script>
+    <script src="js/lib/jquery-ui.min.js"></script>
+    <script src="js/lib/jquery.easie.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+    <!-- userScript -->
+    <script src="js/cookie.js?ver=20200626"></script>
+    <script src="js/index.js?ver=20200701"></script>
+
+    <!-- googleAnalytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170223961-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-170223961-1');
+    </script>
+
+
+    <!-- 크로스브라우징 -->
+    <!--[if (lte IE 9)]>
+	<script src='js/lib/IE9.js' type='text/javascript' charset='utf-8'></script>		
+	<![endif]-->
+
+    <!--[if (lte IE 8)]>
+	<script src='js/lib/html5shiv.min.js' type='text/javascript' charset='utf-8'></script>
+	<script src='js/lib/PIE.js' type='text/javascript' charset='utf-8'></script>
+	<script src='js/lib/jqPIE.js' type='text/javascript' charset='utf-8'></script>		
+	<link href='css/ie78.css' rel='stylesheet' type='text/css'>
+    <![endif]-->
+
+<body class="dark">
+    <!-- wrap 시작 -->
+    <div id="wrap">
+        <!-- 헤더 시작 -->
+        <header id="header">
+            <h1 class="logo">
+                <span class="name">KimJaeyun</span><br><span class="job">Front-end</span>
+            </h1>
+        </header>
+        <!-- 헤더 끝 -->
+        <!-- 메인 시작 -->
+        <main id="main">
+            <!-- 섹션_어바웃 시작 -->
+            <section id="about_me" class="scrollTarget">
+                <h2 class="hidden">aboutMe</h2>
+                <div class="about_item about_item1">
+                    <div class="text_box">
+                        <div class="keywords">
+                            <span>I like JavaScript</span>
+                            <span>I'm Publisher</span>
+                            <span>I try and try and try</span>
+                        </div>
+                        <div class="greeting">
+                            <span>I'm Front-end</span>
+                        </div>
+                        <div class="contact">
+                            <a href="#" class="call" title="copy">call:<br><span
+                                    class="address">82+10-2964-6913</span></a>
+                            <a href="#" class="e-mail" title="copy">e-mail:<br><span
+                                    class="address">kjy_1998@naver.com</span></a>
+                        </div>
+                        <div class="resume_darkmode">
+                            <a class="resume" href="resume_kjy.pdf" title="download" target="_blank">resume</a>
+                            <a class="darkmode" href="#">bright-mode</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="about_item about_item2">
+                    <div class="about_item2_title">I like</div>
+                    <div class="about_bg about_bg1">
+                        <div class="tag">taking picture</div>
+                    </div>
+                    <div class="about_bg about_bg2">
+                        <div class="tag">traveling & activities</div>
+                    </div>
+                </div>
+            </section>
+            <!-- 섹션_어바웃 끝 -->
+            <!-- 섹션_스킬 시작 -->
+            <section id="skills">
+                <h2 class="skills_title title">my skills</h2>
+                <div class="skills_grid fade_in">
+                    <div class="skills_item skills_item1">
+                        <div class="text_box">
+                            <span class="skill">HTML</span>
+                            <span class="percent"><span class="number">96</span>%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="total"></div>
+                            <div class="score"></div>
+                        </div>
+                    </div>
+                    <div class="skills_item skills_item2">
+                        <div class="text_box">
+                            <span class="skill">CSS</span>
+                            <span class="percent"><span class="number">96</span>%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="total"></div>
+                            <div class="score"></div>
+                        </div>
+                    </div>
+                    <div class="skills_item skills_item3">
+                        <div class="text_box">
+                            <span class="skill">JavaScript</span>
+                            <span class="percent"><span class="number">94</span>%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="total"></div>
+                            <div class="score"></div>
+                        </div>
+                    </div>
+                    <div class="skills_item skills_item4">
+                        <div class="text_box">
+                            <span class="skill">jQuery</span>
+                            <span class="percent"><span class="number">96</span>%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="total"></div>
+                            <div class="score"></div>
+                        </div>
+                    </div>
+                    <div class="skills_item skills_item5">
+                        <div class="text_box">
+                            <span class="skill">PHOTOSHOP</span>
+                            <span class="percent"><span class="number">94</span>%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="total"></div>
+                            <div class="score"></div>
+                        </div>
+                    </div>
+                    <div class="skills_item skills_item6">
+                        <div class="text_box">
+                            <span class="skill">ILLUSTRATOR</span>
+                            <span class="percent"><span class="number">96</span>%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="total"></div>
+                            <div class="score"></div>
+                        </div>
+                    </div>
+                    <div class="skills_item skills_item7">
+                        <div class="text_box">
+                            <span class="skill">XD</span>
+                            <span class="percent"><span class="number">96</span>%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="total"></div>
+                            <div class="score"></div>
+                        </div>
+                    </div>
+                    <div class="skills_item skills_item8">
+                        <div class="text_box">
+                            <span class="skill">UI DESIGN</span>
+                            <span class="percent"><span class="number">94</span>%</span>
+                        </div>
+                        <div class="progress">
+                            <div class="total"></div>
+                            <div class="score"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 섹션_스킬 끝 -->
+            <!-- 섹션_라이크 시작 -->
+            <section id="like">
+                <h2 class="like_title title">I like</h2>
+                <div class="like_grid fade_in">
+                    <div class="like_item like_item1">
+                        <div class="tag">taking picture</div>
+                    </div>
+                    <div class="like_item like_item2">
+                        <div class="tag">wathcing movies</div>
+                    </div>
+                    <div class="like_item like_item3">
+                        <div class="tag">music & ed sheeran</div>
+                    </div>
+                    <div class="like_item like_item4">
+                        <div class="tag">soccer & liverpool fc</div>
+                    </div>
+                    <div class="like_item like_item5">
+                        <div class="tag">animals</div>
+                    </div>
+                    <div class="like_item like_item6">
+                        <div class="tag">traveling & activities</div>
+                    </div>
+                </div>
+            </section>
+            <!-- 섹션_라이크 끝 -->
+            <!-- 섹션_카시오 시작 -->
+            <section id="casio" class="project scrollTarget">
+                <h2 class="casio_title title">project1 <span class="subject">casio Korea</span></h2>
+                <div class="project_md fade_in">
+                    <div class="md_item md_item1">
+                        <div class="text_box fade_in">
+                            <div class="overView">
+                                <span class="overView_title">overview</span>
+                                <p class="subject">casio Korea</p>
+                                <span class="description">카시오는 세이코, 시티즌, 놋토를 비롯해 일본을 대표하는 시계 브랜드입니다. 기존의 정적인 디자인에서
+                                    동적이고
+                                    다양한
+                                    레이아웃으로 리뉴얼했습니다.</span>
+                            </div>
+                            <div class="color">
+                                <span class="color_title">color</span>
+                                <div class="color_item color_item1">
+                                    <div class="color_box"></div>
+                                    <div class="type_box">
+                                        <span class="type">primary</span><br><span class="color_code">#333333</span>
+                                    </div>
+                                </div>
+                                <div class="color_item color_item2">
+                                    <div class="color_box"></div>
+                                    <div class="type_box">
+                                        <span class="type">point</span><br><span class="color_code">#003296</span>
+                                    </div>
+                                </div>
+                                <div class="color_item color_item3">
+                                    <div class="color_box"></div>
+                                    <div class="type_box">
+                                        <span class="type">secondary</span><br><span class="color_code">#ADADAD</span>
+                                    </div>
+                                </div>
+                                <div class="color_item color_item4">
+                                    <div class="color_box"></div>
+                                    <div class="type_box">
+                                        <span class="type">secondary varient</span><br><span
+                                            class="color_code">#EFEFEF</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="typo">
+                                <span class="typo_title">typo</span>
+                                <div class="type_item1">
+                                    <p class="font">noto sans <span class="language">kor</span></p>
+                                    <p class="copyright">무에서 유를 창조하다</p>
+                                </div>
+                                <div class="type_item2">
+                                    <p class="font">open sans <span class="language">eng</span></p>
+                                    <p class="copyright">creating something from nothing</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md_item md_item2">
+                        <a class="md_item2_title" href="project1_casio/index.html" title="explore website"
+                            target="_blank">explore</a>
+                        <a class="md_bg_wrap" href="project1_casio/index.html" title="explore website" target="_blank">
+                            <img class="md_bg" src="img/casio_bg.png" alt="casio">
+                        </a>
+                        <p class="md_keywords">
+                            <span class="keyword">RENUAL</span>
+                            <span class="keyword">RESPONSIVE</span>
+                            <span class="keyword">STANDARDS</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="project_coding fade_in">
+                    <div class="coding_item coding_item1">
+                        <div class="coding_bg"></div>
+                        <p class="coding_keywords">
+                            <span class="keyword">HTML</span>
+                            <span class="keyword">CSS</span>
+                            <span class="keyword">JAVASCRIPT</span>
+                            <span class="keyword">JQUERY</span>
+                            <span class="keyword">SLIDE</span>
+                            <span class="keyword">TAB</span>
+                            <span class="keyword">SCROLL</span>
+                        </p>
+                    </div>
+                    <div class="coding_item coding_item2">
+                        <div class="coding_item2_title">coding epilogue</div>
+                        <div class="text_box">
+                            <p class="use_skill">HTML/CSS</p>
+                            <span class="description">
+                                플렉스, 그리드를 이용해 다양하고 유지보수 가능한 레이아웃을 구성하였습니다. %로 작업하여 기본적으로 다양한 해상도에 반응할 수 있으며 768px
+                                이하의
+                                모바일에 최적화되었습니다. 가상선택자, 트랜스폼을 이용한 다양한 위치인지 효과를 구현했습니다.
+                            </span>
+                            <p class="use_skill use_skill_last">JavaScript/jQuery</p>
+                            <span class="description">
+                                스크롤에 반응하여 변형되는 헤더와 수동 슬라이드를 구현하였습니다.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 섹션_카시오 끝 -->
+            <!-- 섹션_셸위 시작 -->
+            <section id="shall_we" class="project scrollTarget">
+                <h2 class="shallwe_title title">project2 <span class="subject">shallWe</span></h2>
+                <div class="project_md fade_in">
+                    <div class="md_item md_item1">
+                        <div class="text_box fade_in">
+                            <div class="overView">
+                                <span class="overView_title">overview</span>
+                                <p class="subject">shallWe</p>
+                                <span class="description">셸위는 현지가이드의 특색을 살린 가이드매칭 O2O 플랫폼입니다. 가이드 플랫폼으로서의 기능에 충실한
+                                    구성과
+                                    사용자를 위해 다양한 필터와 탭 메뉴, 레이아웃을 구현하여 브랜딩 하였습니다.</span>
+                            </div>
+                            <div class="color">
+                                <span class="color_title">color</span>
+                                <div class="color_item color_item1">
+                                    <div class="color_box"></div>
+                                    <div class="type_box">
+                                        <span class="type">primary</span><br><span class="color_code">#2D2D2D</span>
+                                    </div>
+                                </div>
+                                <div class="color_item color_item2">
+                                    <div class="color_box"></div>
+                                    <div class="type_box">
+                                        <span class="type">primary varient</span><br><span
+                                            class="color_code">#757575</span>
+                                    </div>
+                                </div>
+                                <div class="color_item color_item3">
+                                    <div class="color_box"></div>
+                                    <div class="type_box">
+                                        <span class="type">point</span><br><span class="color_code">#DD6571</span>
+                                    </div>
+                                </div>
+                                <div class="color_item color_item4">
+                                    <div class="color_box"></div>
+                                    <div class="type_box">
+                                        <span class="type">point varient</span><br><span
+                                            class="color_code">#48689A</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="typo">
+                                <span class="typo_title">typo</span>
+                                <div class="type_item1">
+                                    <p class="font">noto sans <span class="language">kor</span></p>
+                                    <p class="copyright">가이드를 넘어서, 여행객을 넘어서 함께 즐겨요</p>
+                                </div>
+                                <div class="type_item2">
+                                    <p class="font">noto sans <span class="language">eng</span></p>
+                                    <p class="copyright">Not as a guide, not as a tourist, just enjoy it together
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md_item md_item2">
+                        <a class="md_item2_title" href="project2_shallwe/destination_dubai.html" title="explore website"
+                            target="_blank">explore</a>
+                        <a class="md_bg_wrap" href="project2_shallwe/destination_dubai.html" title="explore website"
+                            target="_blank">
+                            <img class="md_bg" src="img/shallwe_bg.png" alt="shallwe">
+                        </a>
+                        <p class="md_keywords">
+                            <span class="keyword">TEAM</span>
+                            <span class="keyword">BRANDING</span>
+                            <span class="keyword">RESPONSIVE</span>
+                            <span class="keyword">STANDARDS</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="project_coding fade_in">
+                    <div class="coding_item coding_item1">
+                        <div class="coding_bg"></div>
+                        <p class="coding_keywords">
+                            <span class="keyword">HTML</span>
+                            <span class="keyword">CSS</span>
+                            <span class="keyword">JAVASCRIPT</span>
+                            <span class="keyword">JQUERY</span>
+                            <span class="keyword">SLIDE</span>
+                            <span class="keyword">TAB</span>
+                            <span class="keyword">SCROLL</span>
+                        </p>
+                    </div>
+                    <div class="coding_item coding_item2">
+                        <div class="coding_item2_title">coding epilogue</div>
+                        <div class="text_box">
+                            <p class="use_skill">HTML/CSS</p>
+                            <span class="description">
+                                접근성을 고려하여 헤딩태그 아웃라인을 구성하였고 플렉스, 그리드, %, rem를 활용하여 모든 해상도에 반응하여 변형되는 레이아웃을 구성하였습니다.
+                                딤처리,
+                                트랜스폼을 이용하여 사용자 위치인지 효과를 구현하였으며 CSS와 HTML을 모듈화하여 유지보수를 쉽게 하였습니다.
+                            </span>
+                            <p class="use_skill use_skill_last">JavaScript/jQuery</p>
+                            <span class="description">
+                                스크롤에 반응하여 나타나는 아이템과 변형되는 필터박스, 메인동영상을 구현하였습니다. 메인동영상에는 확장, 닫기, 정지/재생, 자동재생 효과를
+                                구현하였습니다.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 섹션_셸위 끝 -->
+            <!-- 섹션_오산시청 시작 -->
+            <section id="osan_city" class="project scrollTarget">
+                <h2 class="osan_city_title title">project3 <span class="subject">osan City</span></h2>
+                <div class="project_md fade_in">
+                    <div class="md_item md_item1">
+                        <div class="text_box fade_in">
+                            <div class="overView">
+                                <span class="overView_title">overview</span>
+                                <p class="subject">osan City</p>
+                                <span class="description">주요 타겟층의 연령층이 높고 "신뢰"가 중요한 관공서 사이트 특징을 고려한 정적인 디자인에 조금의 동적인
+                                    효과를
+                                    구현하여 브랜딩 하였습니다.</span>
+                            </div>
+                            <div class="color">
+                                <span class="color_title">color</span>
+                                <div class="color_item color_item1">
+                                    <div class="color_box"></div>
+                                    <div class="type_box">
+                                        <span class="type">primary</span><br><span class="color_code">#1D1D1D</span>
+                                    </div>
+                                </div>
+                                <div class="color_item color_item2">
+                                    <div class="color_box"></div>
+                                    <div class="type_box">
+                                        <span class="type">primary varient</span><br><span
+                                            class="color_code">#999999</span>
+                                    </div>
+                                </div>
+                                <div class="color_item color_item3">
+                                    <div class="color_box"></div>
+                                    <div class="type_box">
+                                        <span class="type">point</span><br><span class="color_code">#334B7D</span>
+                                    </div>
+                                </div>
+                                <div class="color_item color_item4">
+                                    <div class="color_box"></div>
+                                    <div class="type_box">
+                                        <span class="type">primary varient</span><br><span
+                                            class="color_code">#ADADAD</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="typo">
+                                <span class="typo_title">typo</span>
+                                <div class="type_item1">
+                                    <p class="font">noto sans <span class="language">kor</span></p>
+                                    <p class="copyright">교육도시 오산시</p>
+                                </div>
+                                <div class="type_item2">
+                                    <p class="font">noto sans <span class="language">eng</span></p>
+                                    <p class="copyright">Educational City of Osan</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md_item md_item2">
+                        <a class="md_item2_title" href="project3_osancity/index.html" title="explore website"
+                            target="_blank">explore</a>
+                        <a class="md_bg_wrap" href="project3_osancity/index.html" title="explore website"
+                            target="_blank">
+                            <img class="md_bg" src="img/osan_city_bg.png" alt="osancity">
+                        </a>
+                        <p class="md_keywords">
+                            <span class="keyword">RENUAL</span>
+                            <span class="keyword">ADAPTIVE</span>
+                            <span class="keyword">STATIC</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="project_coding fade_in">
+                    <div class="coding_item coding_item1">
+                        <div class="coding_bg"></div>
+                        <p class="coding_keywords">
+                            <span class="keyword">HTML</span>
+                            <span class="keyword">CSS</span>
+                            <span class="keyword">JAVASCRIPT</span>
+                            <span class="keyword">JQUERY</span>
+                            <span class="keyword">SLIDE</span>
+                            <span class="keyword">TAB</span>
+                        </p>
+                    </div>
+                    <div class="coding_item coding_item2">
+                        <div class="coding_item2_title">coding epilogue</div>
+                        <div class="text_box">
+                            <p class="use_skill">HTML/CSS</p>
+                            <span class="description">
+                                접근성을 고려하여 스킵메뉴를 구현하였으며 시멘틱 태그의 제목을 입력해주었습니다. 새창이 열리는 a 요소의 경우 title 속성에 "새창열기"를 입력하여
+                                사용자가 미리 인지할 수 있도록 하였습니다. 색상반전, 트랜스폼을 활용한 가벼운 동적효과와 긴 문장에 말줄임 효과를 적용하였습니다.
+                            </span>
+                            <p class="use_skill use_skill_last">JavaScript/jQuery</p>
+                            <span class="description">
+                                3개의 각기 다른 탭 메뉴를 구성하였습니다. 슬라이드의 전체 아이템 개수와 현재 슬라이드 위치를 유동적으로 받아오는 스크립트를 구현하였습니다.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 섹션_오산시청 끝 -->
+            <!-- 섹션_픽사 시작 -->
+            <section id="pixar" class="project scrollTarget">
+                <h2 class="pixar_title title">project4 <span class="subject">pixar</span></h2>
+                <div class="project_md fade_in">
+                    <div class="md_item md_item1">
+                        <div class="text_box fade_in">
+                            <div class="overView">
+                                <span class="overView_title">overview</span>
+                                <p class="subject">pixar</p>
+                                <span class="description">픽사는 세계에서 제일 멋진 애니메이션 제작사로 평가받고 있습니다. 대표 캐릭터와 애니메이션을 사진과
+                                    동영상으로 담아냈습니다.</span>
+                            </div>
+                            <div class="color">
+                                <span class="color_title">color</span>
+                                <div class="color_item color_item1">
+                                    <div class="color_box"></div>
+                                    <div class="type_box">
+                                        <span class="type">primary</span><br><span class="color_code">#1D1D1D</span>
+                                    </div>
+                                </div>
+                                <div class="color_item color_item2">
+                                    <div class="color_box"></div>
+                                    <div class="type_box">
+                                        <span class="type">primary varient</span><br><span
+                                            class="color_code">#ADADAD</span>
+                                    </div>
+                                </div>
+                                <div class="color_item color_item3">
+                                    <div class="color_box"></div>
+                                    <div class="type_box">
+                                        <span class="type">point</span><br><span class="color_code">#3B5998</span>
+                                    </div>
+                                </div>
+                                <div class="color_item color_item4">
+                                    <div class="color_box"></div>
+                                    <div class="type_box">
+                                        <span class="type">primary varient</span><br><span
+                                            class="color_code">#EFEFEF</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="typo">
+                                <span class="typo_title">typo</span>
+                                <div class="type_item1">
+                                    <p class="font">nanum gothic <span class="language">kor</span></p>
+                                    <p class="copyright">애니메이션을 통해 삶을 이야기하다</p>
+                                </div>
+                                <div class="type_item2">
+                                    <p class="font">nanum gothic <span class="language">eng</span></p>
+                                    <p class="copyright">talk about life through animation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md_item md_item2">
+                        <a class="md_item2_title" href="project4_pixar/index.html" title="explore website"
+                            target="_blank">explore</a>
+                        <a class="md_bg_wrap" href="project4_pixar/index.html" title="explore website" target="_blank">
+                            <img class="md_bg" src="img/pixar_bg.png" alt="pixar">
+                        </a>
+                        <p class="md_keywords">
+                            <span class="keyword">RENUAL</span>
+                            <span class="keyword">RESPONSIVE</span>
+                            <span class="keyword">STANDARDS</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="project_coding fade_in">
+                    <div class="coding_item coding_item1">
+                        <div class="coding_bg"></div>
+                        <p class="coding_keywords">
+                            <span class="keyword">HTML</span>
+                            <span class="keyword">CSS</span>
+                            <span class="keyword">JAVASCRIPT</span>
+                            <span class="keyword">JQUERY</span>
+                            <span class="keyword">SLIDE</span>
+                            <span class="keyword">TAB</span>
+                            <span class="keyword">SCROLL</span>
+                        </p>
+                    </div>
+                    <div class="coding_item coding_item2">
+                        <div class="coding_item2_title">coding epilogue</div>
+                        <div class="text_box">
+                            <p class="use_skill">HTML/CSS</p>
+                            <span class="description">
+                                유동적인 반응형을 위해 %로 작업하였으며 모든 해상도에 반응하여 레이아웃이 구성되도록 하였습니다. 새 창이 열리는 a 요소의 경우 title 속성에
+                                "바로
+                                가기"를 입력하여 사용자가 미리 인지할 수 있도록 하였습니다. background-attachmenet: fixed, 가상 선택자, 트랜스폼, 색상
+                                반전을
+                                이용한 효과를 적용해 주었습니다.
+                            </span>
+                            <p class="use_skill use_skill_last">JavaScript/jQuery</p>
+                            <span class="description">
+                                스크롤에 반응하여 헤더의 배경색이 변하며 내비게이션 호버 시 픽사 캐릭터가 나오도록 하였습니다.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 섹션_픽사 끝 -->
+            <!-- 섹션_리버풀 시작 -->
+            <section id="liverpool_fc" class="project scrollTarget">
+                <h2 class="liverpool_fc_title title">project5 <span class="subject">liverpool FC</span></h2>
+                <div class="project_md fade_in">
+                    <div class="md_item md_item1">
+                        <div class="text_box fade_in">
+                            <div class="overView">
+                                <span class="overView_title">overview</span>
+                                <p class="subject">liverpool FC</p>
+                                <span class="description">리버풀 FC는 리버풀을 연고지로 한 잉글랜드 프리미어 리그의 프로 축구 클럽입니다. 리버풀 FC의
+                                    선수소개를
+                                    역동적으로 담아냈습니다.</span>
+                            </div>
+                            <div class="color">
+                                <span class="color_title">color</span>
+                                <div class="color_item color_item1">
+                                    <div class="color_box"></div>
+                                    <div class="type_box">
+                                        <span class="type">primary</span><br><span class="color_code">#FFFFFF</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="typo">
+                                <span class="typo_title">typo</span>
+                                <div class="type_item1">
+                                    <p class="font">philosopher <span class="language">eng</span></p>
+                                    <p class="copyright">You'll Never Walk Alone</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md_item md_item2">
+                        <a class="md_item2_title" href="project5_liverpool/index.html" title="explore website"
+                            target="_blank">explore</a>
+                        <a class="md_bg_wrap" href="project5_liverpool/index.html" title="explore website"
+                            target="_blank">
+                            <img class="md_bg" src="img/liverpool_fc_bg.png" alt="liverpoolfc">
+                        </a>
+                        <p class="md_keywords">
+                            <span class="keyword">RENUAL</span>
+                            <span class="keyword">DYNAMIC</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="project_coding fade_in">
+                    <div class="coding_item coding_item1">
+                        <div class="coding_bg"></div>
+                        <p class="coding_keywords">
+                            <span class="keyword">HTML</span>
+                            <span class="keyword">CSS</span>
+                            <span class="keyword">JAVASCRIPT</span>
+                            <span class="keyword">JQUERY</span>
+                            <span class="keyword">SLIDE</span>
+                            <span class="keyword">TAB</span>
+                        </p>
+                    </div>
+                    <div class="coding_item coding_item2">
+                        <div class="coding_item2_title">coding epilogue</div>
+                        <div class="text_box">
+                            <p class="use_skill">HTML/CSS</p>
+                            <span class="description">
+                                iframe 태그를 통해 유튜브 영상을 불러왔으며 writing-mode 속성을 사용하여 텍스트를 세로 배치하였습니다.
+                            </span>
+                            <p class="use_skill use_skill_last">JavaScript/jQuery</p>
+                            <span class="description">
+                                jQuery를 처음 배울 당시 진행했던 프로젝트로 포지션 값과 z-index를 통해 슬라이드를 구현하였습니다. 탭 기능을 비롯 키보드를 통한 슬라이드
+                                조작 등
+                                여러 역동적인 효과를 적용하였습니다.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- 섹션_리버풀 끝 -->
+        </main>
+        <!-- 메인 끝 -->
+        <!-- 푸터 시작 -->
+        <footer id="footer" class="fade_in scrollTarget">
+            <h2 class="hidden">footer</h2>
+            <div class="footer_in">
+                <div class="footer_dim"></div>
+                <div class="footer_tag">footer & epilogue</div>
+                <div class="text_box">
+                    <p class="epilogue_title">Epilogue</p>
+                    <p class="message">4개월 동안 <span class="point">프론트엔드</span>로서 많은 것을 배웠습니다.
+                        "<span class="point">더</span> 잘할 수 있다, <span class="point">더</span> 잘하고 싶다"라는 생각이 매일 들었고 문제를
+                        <span class="point">다양한</span> 관점으로 보고 해결하도록 도와주었습니다. 앞으로도 한 가지
+                        관점이 아닌 <span class="point">다양한</span> 관점으로
+                        보도록 노력하고 배우며 <span class="point">성장</span>할 것입니다.
+                    </p>
+                    <p class="copyright">모든 작업물은 상업적 용도가 아닌 개인 포트폴리오 목적으로 제작되었습니다.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- 푸터 끝 -->
+        <!-- 스크롤 내비게이션 시작 -->
+        <nav class="navigation">
+            <h2 class="hidden">navigation</h2>
+            <ul>
+                <li class="on about_me"><span>aboutMe</span><a href="#about_me" data-number="1"></a></li>
+                <li class="casio"><span>casio</span><a href="#casio" data-number="2"></a></li>
+                <li class="shall_we"><span>shallWe</span><a href="#shall_we" data-number="3"></a></li>
+                <li class="osan_city"><span>osanCity</span><a href="#osan_city" data-number="4"></a></li>
+                <li class="pixar"><span>pixar</span><a href="#pixar" data-number="5"></a></li>
+                <li class="liverpool_fc"><span>liverpoolFC</span><a href="#liverpool_fc" data-number="6"></a></li>
+                <li class="footer"><span>footer</span><a href="#footer" data-number="7"></a></li>
+            </ul>
+        </nav>
+        <!-- 스크롤 내비게이션 끝 -->
+        <!-- 쿠키 시작 -->
+        <article id="cookies">
+            <h2 class="hidden">cookies</h2>
+            <span class="cookies_notice">
+                I'm currently working on cross-browsing.
+                <!-- 위치/날씨 api 활용 -> '도시'는 오늘 비가 올 예정이에요. 우산 챙기는 게 어떠실까요? -->
+            </span>
+            <a href="#" class="cookies_button">
+                hide for today
+            </a>
+        </article>
+        <!-- 쿠키 끝 -->
+        <!-- 포인터 시작 -->
+        <div class="pointer"></div>
+        <!-- 포인터 끝 -->
+    </div>
+    <!-- wrap 끝 -->
+</body>
+
+</html>
